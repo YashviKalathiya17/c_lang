@@ -2,7 +2,6 @@
 #include<conio.h>
 main()
 {
-
 	int i,j;
 	clrscr();
 
@@ -16,6 +15,6 @@ main()
 	}
 
 
+
 	getch();
 }
-

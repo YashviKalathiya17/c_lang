@@ -2,20 +2,26 @@
 #include<conio.h>
 main()
 {
-
-	int i,j;
+	int i,j,n=1;
 	clrscr();
 
 	for(i=1;i<=5;i++)
 	{
-	for(j=i;j<=5;j++)
+	for(j=1;j<=i;j++)
 	{
-	printf("%d",j);
+	printf("%d",n++);
 	}
 	printf("\n");
 	}
 
 
+
+
+
+
+
+
+
+
 	getch();
 }
-
