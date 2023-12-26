@@ -2,20 +2,22 @@
 #include<conio.h>
 main()
 {
-	int a=0,b=1,c,n,i;
+	int n,a=1,mul=1;
 	clrscr();
-
+	label:
 	printf("enter any number :");
 	scanf("%d",&n);
 
-	printf("%d  %d ",a,b);
-	for(i=1;i<=n;i++)
+	for(a=1;a<=n;a++)
 	{
-	c = a+b;
-	printf("%d ",c);
-	a=b;
-	b=c;
+		mul*=a;
 	}
+	   printf("factorial num : %d",mul);
+
+
+
+
+
 
 
 
@@ -23,4 +25,3 @@ main()
 
 	getch();
 }
-

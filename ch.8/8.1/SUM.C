@@ -2,19 +2,15 @@
 #include<conio.h>
 main()
 {
-	int a=10;
+	int i=1,n;
 	clrscr();
 
-	while(a>=1)
+	for(i=1;i>=n;i++)
+
 	{
-		printf("%d\n",a);
-		a--;
+		printf("%d\n",i);
 
-	}
-
-
-
-
+}
 
 
 	getch();

@@ -2,25 +2,24 @@
 #include<conio.h>
 main()
 {
-	int a=0,b=1,c,n,i;
+	int n,rem,rev=0;
 	clrscr();
 
 	printf("enter any number :");
 	scanf("%d",&n);
 
-	printf("%d  %d ",a,b);
-	for(i=1;i<=n;i++)
+	while(n!=0)
 	{
-	c = a+b;
-	printf("%d ",c);
-	a=b;
-	b=c;
+	rem=n%10;
+	rev=rev*10+rem;
+	n=n/10;
+	n++;
 	}
 
+	printf("%d",rev);
 
 
 
 
 	getch();
 }
-

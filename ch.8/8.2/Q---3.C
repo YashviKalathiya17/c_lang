@@ -2,15 +2,9 @@
 #include<conio.h>
 main()
 {
-	int a=10;
+	int
 	clrscr();
 
-	while(a>=1)
-	{
-		printf("%d\n",a);
-		a--;
-
-	}
 
 
 
